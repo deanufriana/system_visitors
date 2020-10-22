@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "visitors_app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.7.2",
     "next": "9.5.5",
+    "next-iron-session": "^4.1.9",
+    "qrcode.react": "^1.0.0",
     "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react-dom": "16.14.0",
+    "react-qr-reader": "^2.2.1",
+    "recharts": "^1.8.5",
+    "serverless-mysql": "^1.5.4"
   }
 }

@@ -1,30 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Visitor System
 
-## Getting Started
+the visit system is an application for registering when going to a place to minimize crowds during this pandemic.
 
-First, run the development server:
+[![Visitory System][product-screenshot]](https://photos.app.goo.gl/VdiTdBsasZu6MrvBA)
+
+here are some of the features available:
+
+* Visitor registration with visit limit to reduce crowds
+* There are statistics on how many visitors will come for the next 5 days
+* Visitors will get a QR code which will be submitted to the admin
+* The admin can scan the QR Code and make sure he's on the list to attend that day
+* admin can see all visitors who will attend
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+## Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+* npm
+
+```sh
+npm install npm@latest -g
+```
+
+## Built With
+
+This app was build using.
+
+* [Antd Design](https://ant.design)
+* [Next JS](https://nextjs.org)
+
+### Installation
+
+1. install mysql
+
+2. clone the repo
+
+```sh
+git clone git@github.com:mysilkyheart/system_visitors.git
+```
+
+3. Install NPM packages
+
+```sh
+npm install
+```
+
+4. config .env
+
+```env
+host = localhost
+user = root
+password =
+database = visitors
+```
+
+5. run app
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm run dev # for development
+npm run build # for build app
+npm run start # for run app production
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contact
 
-## Learn More
+Devi Adi Nufriana - [@deanufriana](https://www.instagram.com/deanufriana/) - deanheart09@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
+Project Link: [https://github.com/mysilkyheart/system_visitors](git@github.com:mysilkyheart/system_visitors.git)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
+Please make sure to update tests as appropriate.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
